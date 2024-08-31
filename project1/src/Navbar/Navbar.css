@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.Nav{
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.logo{
+    height: 10vh;
+}
+
+.logo > img{
+    height: 100%;
+}
+
+.Nav > ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+
+}
+
+.Nav > button{
+    all: unset;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 6px;
+}
